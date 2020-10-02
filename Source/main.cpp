@@ -9,6 +9,15 @@ int AddTwoNumbers(int a, int b)
 {
 	return a + b;
 }
+void AddNumberToNumberArray(int a[], int Count, int b)
+{
+	int n = 0;
+	while(n < Count)
+	{
+		a[n] = a[n] + b;
+		n++;
+	}
+}
 
 #ifdef __cplusplus
 }
